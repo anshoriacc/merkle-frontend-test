@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  padding: 1rem;
+  width: 100%;
+  max-width: 640px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.images {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.add {
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.button {
+  cursor: pointer;
+  padding: 0.25rem 1rem;
+  background-color: indianred;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}

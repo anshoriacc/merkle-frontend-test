@@ -1,0 +1,46 @@
+.wrapper {
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  border-radius: 0.5rem;
+}
+
+.edit {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  background-color: #ccc;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.delete {
+  position: absolute;
+  right: 1rem;
+  bottom: 3rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  background-color: indianred;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.id {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  margin: 0;
+  color: #999;
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+.detail p {
+  margin: 0;
+}
